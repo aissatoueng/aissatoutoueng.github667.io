@@ -1,0 +1,34 @@
+p{
+        text-align: center;
+}
+h1{
+        text-align: center;
+        text-decoration: underline;
+}
+h2{
+        background-color: green;
+
+}
+body{
+        background-color: beige;
+}
+
+.diapo1{
+        margin: 0px;
+        width: 100%;
+        height: 500px;
+        border: 3px solid black;
+        -webkit-animation-name: diapo;
+        -webkit-animation-duration: 60s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-direction: normal;
+    }
+    @-webkit-keyframes diapo{
+        0%{background-image: url(paris5.jpg);}
+        20%{background-image: url(paris1.jpg);}
+        40%{background-image: url(paris2.jpg);}
+        60%{background-image: url(paris3.jpg);}
+        80%{background-image: url(paris4.jpg);}
+        100%{background-image: url(eiffel.jpg);}
+    }

@@ -1,0 +1,25 @@
+.diapo5{
+    margin: 0px;
+    width: 100%;
+    height: 500px;
+    border: 3px solid black;
+    -webkit-animation-name: diapo;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+}
+@-webkit-keyframes diapo{
+    0%{background-image: url(mur1.jpg);}
+    20%{background-image: url(mur2.jpg);}
+    40%{background-image: url(mur3.jpg);}
+    60%{background-image: url(mur4.jpg);}
+    80%{background-image: url(muraille.jpg);}
+    100%{background-image: url(mur1.jpg);}
+}
+p{
+    text-align: center;
+}
+h2{
+    background-color: aquamarine;
+}

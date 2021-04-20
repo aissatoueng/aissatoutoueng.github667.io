@@ -1,0 +1,29 @@
+
+.video{
+    vertical-align: middle
+}
+.diapo2{
+    margin: 0px;
+    width: 100%;
+    height: 500px;
+    border: 3px solid black;
+    -webkit-animation-name: diapo;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+}
+@-webkit-keyframes diapo{
+    0%{background-image: url(sl.jpg);}
+    20%{background-image: url(slb.jpg);}
+    40%{background-image: url(sl1.jpg);}
+    60%{background-image: url(sl2.jpg);}
+    80%{background-image: url(sl3.jpg);}
+    100%{background-image: url(sl4.jpg);}
+}
+h2{
+    background-color: darkorange
+}
+p{
+    text-align: center;
+}
